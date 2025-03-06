@@ -52,6 +52,8 @@ public class ManagementPegawai {
                 default:
                     System.out.println("Pilihan tidak valid.");
             }
+
+
         } while (choice != 4);
 
         scanner.close();

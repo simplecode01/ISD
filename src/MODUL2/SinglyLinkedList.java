@@ -3,9 +3,11 @@ package MODUL2;
 import java.util.NoSuchElementException;
 
 public class SinglyLinkedList<E> {
+
     private ListNode<E> firstNode;
     private ListNode<E> lastNode;
     private String name;
+
     public SinglyLinkedList() {
         this("linked list");
     }
@@ -13,6 +15,7 @@ public class SinglyLinkedList<E> {
         name = listName;
         firstNode = lastNode = null;
     }
+
     public void insertAtFront(E insertItem) {
         ListNode newNode = new ListNode(insertItem);
         if (isEmpty()) {
