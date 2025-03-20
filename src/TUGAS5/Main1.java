@@ -33,7 +33,7 @@ public class Main1 {
     }
 
     public static void main(String[] args) {
-        String[] testCases = {"[({})]", "[]{}()", "[{)]", "[{"};
+        String[] testCases = {"[({})]", "[]{}()", "[{)]", "[{", "((}}"};
 
         for (String test : testCases) {
             System.out.println(test + " -> " + (isbalanced(test) ? "Cocok" : "Nggak cocok"));
