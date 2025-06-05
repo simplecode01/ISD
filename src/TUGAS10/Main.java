@@ -5,7 +5,8 @@ public class Main {
     public static void main(String[] args) {
         Tree<Integer> tree = new Tree<>();
         int[] values = {111, 90, 150, 80, 100, 130, 170, 95, 140};
-        System.out.println("Inserting the following values");
+        System.out.println("");
+        System.out.println("Inserting the following values :");
         for(int value : values){
             System.out.printf("%d", value);
             System.out.print(" ");
